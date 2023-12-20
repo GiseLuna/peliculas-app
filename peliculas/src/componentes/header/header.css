@@ -1,0 +1,32 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5em 10em;
+    background-color: black;
+    
+}
+
+.navBar {
+    background-color: black;
+    
+}
+
+
+.link {
+    text-decoration: none;
+    margin: 1.5em;
+    padding: .5em;
+    border-radius: .3em;
+    font-size: 1.5em;
+    transition: ease;
+    transition-duration: .3s;
+    background-color: transparent;
+    font-weight: bold;
+}
+
+.link:hover {
+    background-color:rgba(97, 91, 91, 0.823);
+    box-shadow: .05em .05em 1em rgb(250, 248, 252);
+    
+}
